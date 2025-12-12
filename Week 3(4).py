@@ -1,3 +1,6 @@
+This program is like a small university system. It keeps track of students, teachers, and courses. Each student and teacher has their own details, and each course has a name and code. Students can join (enrol in) courses, and teachers are assigned to teach certain courses. The program connects these pieces together: who is in which course and who teaches what. In the example, there are three students and two teachers. Some students are enrolled in the course called MSE800, and some in MSE801. The teachers are assigned to teach these courses.
+
+    
 class Student:
     def __init__(self, student_id, first_name, last_name, address, email):
         # Student attributes
